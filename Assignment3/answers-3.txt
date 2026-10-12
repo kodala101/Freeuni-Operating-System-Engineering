@@ -1,0 +1,7 @@
+uptime() system call can also be fastened using shared page.
+It is checking how long the computer has been turned on.
+Every time program wants to check it, it has to ask kernel 
+that is overwhealming. To speed it up, kernel can keep a live
+clock counter on that same shared read only page. Since the page
+is already visible to the program, it can just look it up, without
+aking to kernel.

@@ -1,0 +1,2 @@
+Number of superpages is 64.
+Number of bottom-level pages is 512.

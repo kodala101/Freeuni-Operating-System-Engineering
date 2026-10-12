@@ -1,0 +1,23 @@
+These leaf pages represent the same mapped memory segments as the output in print_pgtbl() exercise. 
+The only difference is that vmprint() hides all the invalid, unallocated memory pages.
+
+The page at virtual address 0x0 contains the user text segment and has permissions RXU, 
+which indicates that it is readable, executable and user accessible, but it is not writable.
+
+The page at virtual address 0x1000 contains the second page of the user text segment and has permissions RXU, 
+which indicates that it is readable, executable and user accessible, but it is not writable.
+
+The page at virtual address 0x2000 contains the user data segment and has permissions RWU, 
+which indicates that it is readable, writable and user accessible, but it is not executable.
+
+The page at virtual address 0x3000 contains the guard page below the user stack and has permissions RW, 
+which indicates that it is readable and writable, but it is not user accessible or executable.
+
+The page at virtual address 0x4000 contains the user stack and has permissions RWU, 
+which indicates that it is readable, writable and user accessible, but it is not executable.
+
+The page at virtual address 0x3FFFFFE000 contains the trapframe page and has permissions RW, 
+which indicates that it is readable and writable, but it is not user accessible or executable.
+
+The page at virtual address 0x3FFFFFF000 contains the trampoline page and has permissions RX, 
+which indicates that it is readable and executable, but it is not user accessible or writable.

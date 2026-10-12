@@ -1,0 +1,80 @@
+The page at virtual address 0x0 contains user text segment and
+has permission bits set to 0x5B, which indicates that its valid, 
+readible, executable and user accessible, but its not writable.
+
+The page at virtual address 0x1000 contains the second page of 
+user text segment and has permission bits set to 0x1B, 
+which indicates that its valid, readible, executable and user accessible, 
+but its not writable.
+
+The page at virtual address 0x2000 contains the user data segment 
+and has permission bits set to 0x17, which indicates that it is valid, 
+readable, writable and user accessible, but it is not executable.
+
+The page at virtual address 0x3000 contains the guard page below the user 
+stack and has permission bits set to 0x7, which indicates that it is valid, 
+readable and writable, but it is not user accessible or executable.
+
+The page at virtual address 0x4000 contains the user stack and has permission 
+bits set to 0xD7, which indicates that it is valid, readable, writable 
+and user accessible, but it is not executable.
+
+The page at virtual address 0x5000 contains unallocated memory space
+and has permission bits set to 0x0, which indicates that it is invalid 
+and has no read, write, execute or user access permissions.
+
+The page at virtual address 0x6000 contains unallocated memory space 
+and has permission bits set to 0x0, which indicates that it is invalid 
+and has no read, write, execute or user access permissions.
+
+The page at virtual address 0x7000 contains unallocated memory space 
+and has permission bits set to 0x0, which indicates that it is invalid 
+and has no read, write, execute or user access permissions.
+
+The page at virtual address 0x8000 contains unallocated memory space 
+and has permission bits set to 0x0, which indicates that it is invalid 
+and has no read, write, execute or user access permissions.
+
+The page at virtual address 0x9000 contains unallocated memory space 
+and has permission bits set to 0x0, which indicates that it is invalid 
+and has no read, write, execute or user access permissions.
+
+The page at virtual address 0x3FFFFF6000 contains unallocated memory space 
+below the trapframe and has permission bits set to 0x0, which indicates 
+that it is invalid and has no read, write, execute or user access permissions.
+
+The page at virtual address 0x3FFFFF7000 contains unallocated memory space 
+below the trapframe and has permission bits set to 0x0, which indicates 
+that it is invalid and has no read, write, execute or user access permissions.
+
+The page at virtual address 0x3FFFFF8000 contains unallocated memory space 
+below the trapframe and has permission bits set to 0x0, which indicates 
+that it is invalid and has no read, write, execute or user access permissions.
+
+The page at virtual address 0x3FFFFF9000 contains unallocated memory space 
+below the trapframe and has permission bits set to 0x0, which indicates 
+that it is invalid and has no read, write, execute or user access permissions.
+
+The page at virtual address 0x3FFFFFA000 contains unallocated memory space 
+below the trapframe and has permission bits set to 0x0, which indicates 
+that it is invalid and has no read, write, execute or user access permissions.
+
+The page at virtual address 0x3FFFFFB000 contains unallocated memory space 
+below the trapframe and has permission bits set to 0x0, which indicates 
+that it is invalid and has no read, write, execute or user access permissions.
+
+The page at virtual address 0x3FFFFFC000 contains unallocated memory space 
+below the trapframe and has permission bits set to 0x0, which indicates 
+that it is invalid and has no read, write, execute or user access permissions.
+
+The page at virtual address 0x3FFFFFD000 contains unallocated memory space 
+below the trapframe and has permission bits set to 0x0, which indicates 
+that it is invalid and has no read, write, execute or user access permissions.
+
+The page at virtual address 0x3FFFFFE000 contains the trapframe page and 
+has permission bits set to 0xC7, which indicates that it is valid, readable 
+and writable, but it is not user accessible or executable.
+
+The page at virtual address 0x3FFFFFF000 contains the trampoline page and
+has permission bits set to 0x4B, which indicates that it is valid, readable 
+and executable, but it is not user accessible or writable.
