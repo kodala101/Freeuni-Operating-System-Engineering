@@ -1,6 +1,0 @@
-1. usertrap
-2. 7 - this is the number of the system calls, user space is requesting the kernel to do.
-3. user mode
-4. lw, a3
-5. because address 0 is not mapped in address space.
-6. initcode
