@@ -1,0 +1,12 @@
+Copyright (c) 2026 Luka Tasoshvili
+Copyright (c) MIT & xv6 Authors (Kernel Base Code)
+Copyright (c) Free University of Tbilisi (Lab Instructions & Course Materials)
+
+The source code and solutions contained in this repository were implemented by the author as part of the Operating System Engineering course at the Free University of Tbilisi (FreeUni), based on the open-source xv6 RISC-V kernel originally developed by MIT.
+
+PERMITTED USES:
+Permission is granted to view, inspect, and evaluate the code in this repository strictly for personal demonstration, peer review, and job recruitment/portfolio assessment purposes.
+
+RESTRICTIONS:
+1. No section of this repository may be copied, modified, redistributed, hosted, or republished in any form without explicit written permission from the author.
+2. Under no circumstances may current or future students at FreeUni, MIT, or any other institution submit, adapt, or copy any code or material from this repository for academic credit. Doing so violates academic integrity policies.
