@@ -4,15 +4,6 @@ This repository contains my solutions, kernel extensions and system call impleme
 
 ---
 
-## 📌 Course Overview
-- **Institution:** Free University of Tbilisi (MACI / Computer Science)
-- **Course:** Operating Systems Engineering (V Semester)
-- **Instructor:** Aleksandre Khokhiashvili
-- **Primary System:** xv6 (MIT 6.S081 / 6.1810 curriculum base)
-- **Language:** C / RISC-V Assembly
-
----
-
 ## 🛠️ Key Topics & Implementations
 
 ### 1. System Calls & User Utilities
