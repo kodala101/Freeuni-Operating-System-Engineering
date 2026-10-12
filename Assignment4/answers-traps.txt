@@ -1,0 +1,17 @@
+1. a0 (first argument), a1(second argument), a2... a7.
+   13 is stored in a2.
+
+2. Neither f nor g is called, they are pre-calculated by compiler.
+
+3. 6fe
+
+4. 30 + 4 = 34
+
+5. He110 World.
+   If the RISC-V were instead big-endia, we would set i to 0x726c6400.
+   No, we would not change 57616.
+
+6. After "y=", it will be printed garbage memory stored in a2.
+   That happens because when compiler sees %d it goes to the a2 register,
+   expecting there to be third argument to the function, which
+   We have not passed, so it sees whatever garbage is in there and prints it.
